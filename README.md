@@ -1,10 +1,20 @@
 # Docker for PHP Developers
 
-![Docker](https://www.docker.com/sites/all/themes/docker/assets/images/logo.png)
+![docker image](logo.png) ![php image](php.png)
 
 ## About
 
-Files to setup an isolated PHP dev enviroment using [Docker](https://www.docker.com/)
+Files to setup an isolated PHP dev enviroment on Ubuntu using [Docker](https://www.docker.com/)
+
+## How to use
+
+- Clone this repo
+- Install [docker](https://docs.docker.com/docker/installation/ubuntulinux/) and [docker-compose](http://docs.docker.com/compose/install/)
+- Run `echo '\n127.0.0.1       docker.dev' | sudo tee -a /etc/hosts`
+- Run `docker-compose up -d`
+- Go to `http://docker.dev` on your browser
+- Refactor settings according to your needs
+- Happy coding!
 
 ## Sources
 
@@ -89,6 +99,10 @@ View containers logs
 ```javascript
 docker-compose logs
 ```
+
+##### Docker Hub
+
+[https://hub.docker.com/u/juancarlosqr/](https://hub.docker.com/u/juancarlosqr/)
 
 # Issues
 
