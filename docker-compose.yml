@@ -1,5 +1,5 @@
 web:
-  image: juancarlosqr/nginx
+  build: ./images/nginx
   ports:
     - "80:80"
   volumes:
